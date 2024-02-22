@@ -1,4 +1,6 @@
-# Functions for handling bash arrays
+# collections.sh
+
+Functions for handling bash arrays
 
 ## `contains_elements(element, ...array)`
 
