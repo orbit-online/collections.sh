@@ -2,11 +2,15 @@
 
 Functions for handling bash arrays
 
-## `contains_elements(element, ...array)`
+## Installation
+
+See [the latest release](https://github.com/orbit-online/collections.sh/releases/latest) for instructions.
+
+## Usage
+
+### `contains_elements(element, ...array)`
 
 Checks if an element is in an array
-
-### Usage
 
 ```
 local arr=(1 "a b" 2)
@@ -17,11 +21,9 @@ else
 fi
 ```
 
-## `join_by(separator, ...array)`
+### `join_by(separator, ...array)`
 
 Joins all elements in the array into a single string using `separator`
-
-### Usage
 
 ```
 local arr=(1 "a b" 2)
